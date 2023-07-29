@@ -1,1 +1,121 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+header{
+    font-family: 'Abril Fatface';
+}
+
+body {
+    font-family: 'Source Sans Pro';
+    background-color: #eee;
+}
+
+article {
+    font-family: 'Roboto Slab';
+}
+
+.newspaper-container {
+    background-color: white;
+    box-shadow: #ddd;
+    border-radius: 1em;
+    margin-top: 3em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.date {
+    font-family: 'Source Sans Pro';
+    padding: 1em;
+}
+
+h1 {
+    text-align: center;
+}
+/** Nav **/
+nav {
+    color: #777;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    border-top: solid 0.1em;
+    border-bottom: solid 0.1em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding-right: 1em;
+    display: inline-block;
+}
+
+a {
+    color:#777;
+    text-decoration: none;
+}
+/** Nav Ends **/
+
+/** Front Article **/
+h2 {
+    font-weight: bold;
+    font-family: 'Abril Fatface';
+    padding-left: 1em;
+    margin-top: 1em;
+}
+h5 {
+    color: red;
+    font-weight: bold;
+    font-family: 'Abril Fatface';
+    padding-left: 1.8em;
+    margin-top: 1em;
+}
+
+.a1i {
+    padding-left: 1.5em;
+    
+}
+
+p {
+    font-family: 'Source Sans Pro';
+}
+
+.a1 {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    
+}
+
+main {
+    border-bottom: solid 0.1em #777;
+}
+
+/** Front Article Ends**/
+
+/** More Articles **/
+.more-articles {
+    display: flex;
+    padding-left: 1em;
+    margin: auto;
+}
+
+h4 {
+    font-weight: bold;
+    font-family: 'Abril Fatface';
+    font-size: 1.2em;
+}
+
+.a2 {
+    padding-right: 2em;
+    padding-left: 1em;
+}
+
+.a3 {
+    padding-right: 2em;
+    padding-left: 1em;
+}
+/** More Articles Ends**/
+
+
+
+
