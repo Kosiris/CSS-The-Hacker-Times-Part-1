@@ -39,6 +39,9 @@ nav {
     margin: auto;
     border-top: solid 0.1em;
     border-bottom: solid 0.1em;
+    position: sticky;
+    top: 1em;
+    background-color: white;
 }
 
 ul {
